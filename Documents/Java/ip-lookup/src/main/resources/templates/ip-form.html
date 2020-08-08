@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Ip look up</title>
+</head>
+<body>
+<h1></h1>
+<form th:action="@{/ip-result}" enctype="multipart/form-data" method="post">
+    <p>IP: <input required type="text" name="ip" id="ip"/></p>
+    <p><input type="submit" value="Submit" /><input type="reset" value="Reset" /></p>
+</form>
+</body>
+</html>
